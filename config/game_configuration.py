@@ -135,7 +135,7 @@ def configure_game(stats: GameStats, use_color: bool) -> TicTacToeGame:
     difficulty = prompt_choice(
         'Select difficulty (1/2/3) [2]: ',
         difficulty_options,
-        default=SystemDifficulty.CHALLENGING,
+        default=SystemDifficulty.MEDIUM,
     )
 
     print('\n✅ Configuration complete!')
@@ -146,9 +146,9 @@ def configure_game(stats: GameStats, use_color: bool) -> TicTacToeGame:
 
     return TicTacToeGame(
         human_symbol=human_symbol,
-        ai_symbol=system_symbol,
+        system_symbol=system_symbol,
         human_starts=human_starts,
-        ai_difficulty=difficulty,
+        system_difficulty=difficulty,
         use_color=use_color,
     )
 
