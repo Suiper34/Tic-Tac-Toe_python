@@ -38,8 +38,8 @@ HUMAN_COLOR = Fore.CYAN or ''
 AI_COLOR = Fore.MAGENTA or ''
 
 
-class AIDifficulty(str, Enum):
-    """Supported AI difficulty tiers."""
+class SystemDifficulty(str, Enum):
+    """Supported Ggame System difficulty tiers."""
 
     EASY = 'easy'
     MEDIUM = 'medium'
