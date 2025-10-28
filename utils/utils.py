@@ -35,7 +35,7 @@ SUPPORTS_COLOR = sys.stdout.isatty() and Fore is not None and Style is not None
 RESET = Style.RESET_ALL or ''
 DIM = Style.DIM or ''
 HUMAN_COLOR = Fore.CYAN or ''
-AI_COLOR = Fore.MAGENTA or ''
+SYSTEM_COLOR = Fore.MAGENTA or ''
 
 
 class SystemDifficulty(str, Enum):
