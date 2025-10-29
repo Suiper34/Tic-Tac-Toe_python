@@ -82,7 +82,7 @@ def configure_game(stats: GameStats, use_color: bool) -> TicTacToeGame:
 
     print('\n' + '=' * 60)
     print('🎮 Tic-Tac-Toe Configuration')
-    print(f'Current scoreboard → {stats.summary()}')
+    print(f'Current scoreboard → {stats.legacy()}')
 
     symbol_options: Dict[str, str] = {'x': 'X', 'o': 'O'}
     human_symbol = prompt_choice(
