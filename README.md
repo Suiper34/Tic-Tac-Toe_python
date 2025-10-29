@@ -74,6 +74,6 @@ Suggestions and improvements are welcome. Feel free to open issues or submit pul
 
 ## 📄 License
 
-This project is released under the MIT License. See LICENSE for details.
+This project is released under the MIT License. See [`LICENSE`](https://github.com/Suiper34) for details.
 
 Enjoy mastering Tic-Tac-Toe against your intelligent digital opponent! 🎉
