@@ -79,12 +79,12 @@ class TicTacToeGame:
             else:
                 move = self.compute_system_move()
                 print(
-                    f'\n🤖 System ({self.ai_symbol}) chooses position {move}.'
+                    f'\nSystem ({self.system_symbol}) chooses position {move}.'
                 )
-                self.board[move] = self.ai_symbol
+                self.board[move] = self.system_symbol
                 self.display_board()
 
-                if check_winner(self.board, self.ai_symbol):
+                if check_winner(self.board, self.system_symbol):
                     return 'system'
 
                 if is_board_full(self.board):
