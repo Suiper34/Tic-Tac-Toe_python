@@ -37,7 +37,7 @@ A feature-rich, terminal-based Tic-Tac-Toe experience with adaptive game system,
 - Run the game with:
 
     ```bash
-    python main.py
+    python __init__.py
 
 **Follow the on-screen prompts to**:
 
